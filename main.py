@@ -64,6 +64,6 @@ class WaterTransport(Transport):
 
 
 a1 = AirTransport('бензин', "БМВ", "100500", "красный", "200км/ч", "3", "1500", "3", "10")
-b1 = GroundTransport('бензин', "БМВ", "100500", "красный", "200км/ч", "Taxi")
-c1 = WaterTransport('бензин', "БМВ", "100500", "красный", "200км/ч", "military")
+b1 = GroundTransport('бензин', "БМВ", "100500", "orange", "150км/ч", "Taxi")
+c1 = WaterTransport('бензин', "БМВ", "100500", "green", "50км/ч", "military")
 print(c1)
