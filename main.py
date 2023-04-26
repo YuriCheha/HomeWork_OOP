@@ -16,11 +16,11 @@ class Transport(ABC):
 
     @abstractmethod
     def move(self, distance):
-        print(f'я продвинулся на {distance}')
+        print(f'Дистанция {distance}')
 
     @abstractmethod
     def stop(self, stopped):
-        print(f'Я остановился за {stopped} секунд')
+        print(f'Остановка {stopped}')
 
 
 class AirTransport(Transport):
@@ -73,12 +73,6 @@ class WaterTransport(Transport):
 
     def down(self):
         print('go bottom!')
-
-    def move(self, distance):
-        pass
-
-    def stop(self, stopped):
-        pass
 
 class Helicopter(AirTransport):
     pilot: str
